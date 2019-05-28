@@ -1,0 +1,113 @@
+/* CSS File for main page */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+table, th, td{
+  border: 1px solid black;
+    padding: 5px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ddd;
+	
+    
+}
+
+
+
+tr:nth-child(even) 
+{
+	background-color: #f2f2f2;
+}
+
+#logo{
+
+width:100px;
+height:100px;
+	
+	
+}
+
+.lab input{
+	margin: 0px;
+	padding: 0px;
+	border-top: 2px solid;
+	border-bottom: 2px solid darkorange;
+	min-width: 100%;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+ .lab #submit {
+	
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid;
+	min-width: 100%;
+	background-color: darkorange;
+	
+	
+}
+
+.lab #submit:hover {
+	color: darkorange;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid;
+	min-width: 100%;
+	background-color: black;
+	
+	
+}
+
+.lab input:hover{
+	margin: 0px;
+	padding: 0px;
+	border-top: 2px solid darkorange;
+	border-bottom: 2px solid black;
+	min-width: 100%;
+	border-radius: 20px;
+}
+
+.lab{
+	text-align: left;
+	color: black;
+}
+.lab a{
+	text-decoration: none;
+	color: black; 
+}
+.lab a:hover{
+	text-decoration: none;
+	color: darkorange; 
+}
+
+.mydiv{
+text-align: center;
+padding: 10px;
+border: 1px solid black;
+border-radius: 20px;
+margin: auto;
+width: 500px;
+transform: translate(5%, 10%); 
+    
+}
+
+.nav-bar{
+padding: 10px;
+margin-top: 0px;
+margin-right: 0px;
+background-color: skyblue;
+
+}
+
+.footer{
+	padding: 0px;
+	padding-top: 30px;
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+	height: 98px;
+	background-color: #fff;
+	transform: translate(0px, 90px);
+}
